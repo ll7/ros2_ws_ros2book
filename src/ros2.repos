@@ -11,4 +11,4 @@ repositories:
   book_ros2:
     type: git
     url: https://github.com/ll7/book_ros2
-    version: main
+    version: ll7/foxy-devel
