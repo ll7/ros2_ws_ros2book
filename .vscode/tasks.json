@@ -230,6 +230,13 @@
             "problemMatcher": []
         },
         {
+            "label": "install dependencies, ignore errors",
+            "detail": "Install all dependencies specified in the workspaces package.xml files. and ignore errors",
+            "type": "shell",
+            "command": "sudo apt-get update && rosdep update && rosdep install --from-paths src --ignore-src -y -r",
+            "problemMatcher": []
+        },
+        {
             "label": "setup",
             "detail": "Set up the workspace",
             "type": "shell",
